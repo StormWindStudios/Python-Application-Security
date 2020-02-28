@@ -1,0 +1,30 @@
+HSTS
+
+Strict-Transport-Security: max-age = <expire-time>
+Strict-Transport-Security: max-age = <expire-time>; includeSubDomains
+Strict-Transport-Security: max-age = <expire-time>; preload
+
+CSP
+
+Content-Security-Policy: <policy-directive>; <policy-directive>
+
+XSS
+
+X-XSS-Protection: 0
+X-XSS-Protection: 1
+X-XSS-Protection: 1, mode=block
+X-XSS-Protection: 1, report=<reporting-uri>
+
+X-Frame-Options
+
+X-Frame-Options: DENY
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: ALLOW_FROM https://website.com
+
+X-Content-Type-Options
+
+X-Content-Type-Options: nosniff
+
+Set-Cookie
+
+Set-Cookie: <cookie-name>=<cookie-value>; Domain=<domain-value>; Secure; HttpOnly
