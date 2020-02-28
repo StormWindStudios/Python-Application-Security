@@ -1,3 +1,3 @@
-# PPython-Application-Security
+# Python-Application-Security
 
 Material from the Python Application Security course,
